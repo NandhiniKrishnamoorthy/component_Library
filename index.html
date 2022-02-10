@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <script src="https://kit.fontawesome.com/c2fdf537fc.js"
+            crossorigin="anonymous"></script>
+    <title>UI_Components</title>
+    <link rel="stylesheet" href="css/main.css" />
+</head>
+<body>
+    <header class="header m-auto py-0p5 pl-2">
+        <h2>Components</h2>
+    </header>
+    <container>
+        <!--------------Avatar-------------->
+        <h2 class="m-auto content-size mt-2">Avatar</h2>
+        <p class="m-auto mt-1 content-size text-xs">
+            Avatars are images that users can set as their profile picture.
+            They can be custom photos, uploaded by users, or generated as Identicons as a placeholder.
+        </p>
+        <section class="m-auto mt-2 px-0p5 py-1 container-wrapper">
+            <div class="container-flex-row">
+                <div class="px-1">
+                    <img src="images/avatar1.jpg" alt="avatar" class="avatar-xs  avatar-image">
+                </div>
+                <div class="px-1">
+                    <img src="images/avatar2.jpg" alt="avatar" class="avatar-s  avatar-image">
+                </div>
+                <div class="px-1">
+                    <img src="images/avatar3.jpg" alt="avatar" class="avatar-m avatar-image">
+                </div>
+                <div class="px-1">
+                    <img src="images/avatar4.jpeg" alt="avatar" class="avatar-l avatar-image">
+                </div>
+                <div class="px-1">
+                    <img src="images/avatar5.jpg" alt="avatar" class="avatar-xl avatar-image">
+                </div>
+                <div class="px-1">
+                    <img src="images/avatar6.jpg" alt="avatar" class="avatar-xxl avatar-image">
+                </div>
+            </div>
+        </section>       
+
+
+        <!--------------Badges-------------->
+        <h2 class="m-auto content-size mt-2">Badge</h2>
+        <p class="m-auto mt-1 content-size text-xs">
+            Badges are used to display the notification count and status to the user
+        </p>
+        <section class="m-auto mt-1 px-0p5 py-1 container-wrapper">
+            <h3 class="m-auto mb-2 content-size">Badge on icons</h3>
+            <div class="container-flex-row">
+                <div class="px-1p5 badge-element">
+                    <i class="fas fa-bell fa-2x" aria-hidden="true"></i>
+                    <span class="badge-icon">4</span>
+                </div>
+                <div class="px-1p5 badge-element">
+                    <i class="fa-solid fa fa-envelope fa-2x"></i>
+                    <span class="badge-icon badge-red">99+</span>
+                </div>
+                <div class="px-1p5 badge-element">
+                    <i class="fa-solid fa fa-comment fa-2x"></i>
+                    <span class="badge-icon badge-green">5</span>
+                </div>
+                <div class="px-1p5 badge-element">
+                    <i class="fas fa-shopping-cart fa-2x"></i>
+                    <span class="badge-icon badge-yellow">7</span>
+                </div>
+            </div>
+            <h3 class="m-auto my-2 content-size">Badge on avatar</h3>
+            <div class="container-flex-row">
+                <div class="px-1p5  badge-element">
+                    <img src="images/avatar1.jpg" alt="avatar" class="avatar-xs  avatar-image">
+                    <span class="badge-avatar badge-green-avatar"></span>
+                    <p class="badge_description">Available</p>
+                </div>
+                <div class="px-1p5 badge-element">
+                    <img src="images/avatar2.jpg" alt="avatar" class="avatar-xs  avatar-image">
+                    <span class="badge-avatar badge-red-avatar"></span>
+                    <p class="badge_description">Do Not Disturb</p>
+                </div>
+                <div class="px-1p5 badge-element">
+                    <img src="images/avatar3.jpg" alt="avatar" class="avatar-xs  avatar-image">
+                    <span class="badge-avatar badge-yellow-avatar"></span>
+                    <p class="badge_description">Away</p>
+                </div>
+                <div class="px-1p5 badge-element">
+                    <img src="images/avatar4.jpeg" alt="avatar" class="avatar-xs  avatar-image">
+                    <span class="badge-avatar badge-grey-avatar"></span>
+                    <p class="badge_description">offline</p>
+                </div>
+            </div>
+        </section>           
+       
+    </container>
+</body>
+</html>
