@@ -1,0 +1,21 @@
+﻿.container-wrapper {
+    max-width: 60%;
+    /*border: var(--border-color) 1px solid;*/
+    box-shadow: var(--box-shadow);
+}
+
+.container-flex-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    /*flex-direction: row;     */
+}
+
+.container-flex-col {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

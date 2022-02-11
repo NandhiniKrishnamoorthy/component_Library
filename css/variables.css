@@ -1,0 +1,17 @@
+﻿:root {
+    --primary_color: rgb(240, 255, 240);
+    --border-color: indigo;
+    --box-shadow: rgb(218, 225, 224) 0px 0px 3px 3px;
+    --avatar-color: darkolivegreen;
+    --image-shadow: 0px 0px 4px 4px rgba(200, 200, 200);
+    --success-alert: #c1f0c1;
+    --success-text: #1e7b1e;
+    --fail-alert: #ff9999;
+    --fail-text: #ff0000;
+    --warning-alert: #ffe066;
+    --warning-text: #4d3d00;
+    --info-alert: #b3e6ff;
+    --info-text: #0052cc;
+    --white-color: #fff;
+    --primary-button-color: #794AD6;
+}

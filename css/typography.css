@@ -1,0 +1,69 @@
+﻿/* heading-styles */
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-size: 1.25rem;
+}
+
+h5 {
+    font-size: 1rem;
+}
+/* paragraph-styles */
+.text-xxl {
+    font-size: 3rem;
+}
+
+.text-xl {
+    font-size: 2.5rem;
+}
+
+.text-l {
+    font-size: 2rem;
+}
+
+.text-m {
+    font-size: 1.75rem;
+}
+
+.text-s {
+    font-size: 1.5rem;
+}
+
+.text-xs {
+    font-size: 1.25rem;
+}
+.text-xxs{
+    font-size:1rem;
+}
+
+/* text-weight */
+.text-normal {
+    font-weight: 400;
+}
+
+.text-semibold {
+    font-weight: 600;
+}
+
+.text-bold {
+    font-weight: 700;
+}
+
+.text-black {
+    font-weight: 900;
+}
+
+.text-underline{
+    text-underline-position:under;
+    color:black;
+}
