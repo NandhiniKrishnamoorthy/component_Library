@@ -14,4 +14,9 @@
     --info-text: #0052cc;
     --white-color: #fff;
     --primary-button-color: #794AD6;
+    --primary-button-disabled: #B59CE8;
+    --secondary-button-disabled: #C8C5CF;
+    --golden-color: #EECB59;
+    --card-color: #2D260B;
+    --overlay: rgba(0, 0, 0, 0.5);
 }

@@ -1,0 +1,81 @@
+﻿.button-main{
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;    
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.primary-button {
+    background-color: var(--primary-button-color);
+    color: white;
+}
+
+.secondary-button {
+    border: var(--primary-button-color) 1px solid;
+}
+
+    .secondary-button:hover {
+        background-color: #5200cc;
+        color: white;
+        cursor: pointer;
+    }
+
+.primary-button:hover {
+    background-color: #5200cc;
+    color: white;
+    cursor: pointer;
+}
+
+.button-link {
+    text-decoration: underline;
+    font-size: 1.25rem;
+    text-underline-position: under;
+    color: #5200cc;
+    cursor: pointer;
+}
+
+    .button-link:hover {
+        cursor: pointer;
+        color: #26004d;
+    }
+
+.float-button{
+    margin-left: 1rem;
+    background-color: white;
+    color: blue;
+    border-radius: 50%;  
+    border:none;
+    padding: 0px 0px 0px 0px;
+}
+
+    .float-button:hover {
+        cursor: pointer;
+        box-shadow: grey 0px 0px 2px 2px;
+    }
+
+.primary-button-disabled {
+    background-color: var(--primary-button-disabled);
+    border: none;
+    font-weight: normal;
+    color: white;
+}
+
+.secondary-button-disabled {
+    background-color: var(--secondary-button-disabled);
+    border: none;
+    font-weight: normal;
+    color: white;
+}
+
+.secondary-link-button {
+    font-size: 1rem;
+    border: 1px solid black;
+    box-shadow: grey 0px 0px 2px 2px;
+    text-underline-position: under;
+}
+
+.secondary-link-button:hover{
+    background-color: lightgrey;
+}

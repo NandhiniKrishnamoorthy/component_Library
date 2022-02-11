@@ -1,0 +1,23 @@
+﻿.alert-success {
+    background-color: var(--success-alert);
+    color: var(--success-text);
+    width: 45%
+}
+
+.alert-fail {
+    background-color: var(--fail-alert);
+    color: var(--fail-text);
+    width: 45%
+}
+
+.alert-warning {
+    background-color: var(--warning-alert);
+    color: var(--warning-text);
+    width: 45%
+}
+
+.alert-info {
+    background-color: var(--info-alert);
+    color: var(--info-text);
+    width: 45%
+}
