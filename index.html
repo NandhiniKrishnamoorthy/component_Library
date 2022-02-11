@@ -3,6 +3,8 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <script src="https://kit.fontawesome.com/c2fdf537fc.js"
             crossorigin="anonymous"></script>
     <title>UI_Components</title>
@@ -12,87 +14,58 @@
     <header class="header m-auto py-0p5 pl-2">
         <h2>Components</h2>
     </header>
-    <container>
-        <!--------------Avatar-------------->
-        <h2 class="m-auto content-size mt-2">Avatar</h2>
+    <container>        
+
+        <!--------------Alert-------------->
+        <h2 class="m-auto content-size mt-2">Alert</h2>
         <p class="m-auto mt-1 content-size text-xs">
-            Avatars are images that users can set as their profile picture.
-            They can be custom photos, uploaded by users, or generated as Identicons as a placeholder.
+            Alert messages can be used to notify the user about something special: <i>danger, success, information or warning.</i>
         </p>
-        <section class="m-auto mt-2 px-0p5 py-1 container-wrapper">
-            <div class="container-flex-row">
-                <div class="px-1">
-                    <img src="images/avatar1.jpg" alt="avatar" class="avatar-xs  avatar-image">
-                </div>
-                <div class="px-1">
-                    <img src="images/avatar2.jpg" alt="avatar" class="avatar-s  avatar-image">
-                </div>
-                <div class="px-1">
-                    <img src="images/avatar3.jpg" alt="avatar" class="avatar-m avatar-image">
-                </div>
-                <div class="px-1">
-                    <img src="images/avatar4.jpeg" alt="avatar" class="avatar-l avatar-image">
-                </div>
-                <div class="px-1">
-                    <img src="images/avatar5.jpg" alt="avatar" class="avatar-xl avatar-image">
-                </div>
-                <div class="px-1">
-                    <img src="images/avatar6.jpg" alt="avatar" class="avatar-xxl avatar-image">
-                </div>
+        <section class="m-auto mt-2 px-0p5 py-1 container-wrapper container-flex-col">
+            <div class="px-1 py-1 alert-success container-flex-row">
+                <i class="mr-1 fas fa-check-circle"></i><strong>Success!</strong>This is a success Alert<i class="ml-auto cursor-pointer fas fa-times"></i>
             </div>
-        </section>       
 
+            <div class="px-1 py-1 mt-1 alert-fail container-flex-row">
+                <i class="mr-1 fas fa-times-circle"></i><strong>Fail!</strong>This is a fail Alert<i class="ml-auto cursor-pointer fas fa-times"></i>
+            </div>
 
-        <!--------------Badges-------------->
-        <h2 class="m-auto content-size mt-2">Badge</h2>
+            <div class="px-1 py-1 mt-1 alert-warning container-flex-row">
+                <i class="mr-1 fas fa-exclamation-triangle"></i><strong>Warning!</strong>This is a warning Alert<i class="ml-auto cursor-pointer fas fa-times"></i>
+            </div>
+
+            <div class="px-1 py-1 mt-1 alert-info container-flex-row">
+                <i class="mr-1 fas fa-exclamation-triangle"></i><strong>Info!</strong>This is a info Alert<i class="ml-auto cursor-pointer fas fa-times"></i>
+            </div>
+        </section>
+
+        <!--------------Buttons-------------->
+        <h2 class="m-auto content-size mt-2">Buttons</h2>
         <p class="m-auto mt-1 content-size text-xs">
-            Badges are used to display the notification count and status to the user
+            Buttons help us to create user interaction and event processing
         </p>
         <section class="m-auto mt-1 px-0p5 py-1 container-wrapper">
-            <h3 class="m-auto mb-2 content-size">Badge on icons</h3>
-            <div class="container-flex-row">
-                <div class="px-1p5 badge-element">
-                    <i class="fas fa-bell fa-2x" aria-hidden="true"></i>
-                    <span class="badge-icon">4</span>
-                </div>
-                <div class="px-1p5 badge-element">
-                    <i class="fa-solid fa fa-envelope fa-2x"></i>
-                    <span class="badge-icon badge-red">99+</span>
-                </div>
-                <div class="px-1p5 badge-element">
-                    <i class="fa-solid fa fa-comment fa-2x"></i>
-                    <span class="badge-icon badge-green">5</span>
-                </div>
-                <div class="px-1p5 badge-element">
-                    <i class="fas fa-shopping-cart fa-2x"></i>
-                    <span class="badge-icon badge-yellow">7</span>
-                </div>
+            <h4 class="m-auto mb-1 content-size">Primary/ Secondary Buttons</h4>
+            <div class="container-flex-row mb-1">
+                <button class="primary-button button-main">Primary Button</button>
+                <button class="secondary-button button-main">Secondary Button</button>
             </div>
-            <h3 class="m-auto my-2 content-size">Badge on avatar</h3>
-            <div class="container-flex-row">
-                <div class="px-1p5  badge-element">
-                    <img src="images/avatar1.jpg" alt="avatar" class="avatar-xs  avatar-image">
-                    <span class="badge-avatar badge-green-avatar"></span>
-                    <p class="badge_description">Available</p>
-                </div>
-                <div class="px-1p5 badge-element">
-                    <img src="images/avatar2.jpg" alt="avatar" class="avatar-xs  avatar-image">
-                    <span class="badge-avatar badge-red-avatar"></span>
-                    <p class="badge_description">Do Not Disturb</p>
-                </div>
-                <div class="px-1p5 badge-element">
-                    <img src="images/avatar3.jpg" alt="avatar" class="avatar-xs  avatar-image">
-                    <span class="badge-avatar badge-yellow-avatar"></span>
-                    <p class="badge_description">Away</p>
-                </div>
-                <div class="px-1p5 badge-element">
-                    <img src="images/avatar4.jpeg" alt="avatar" class="avatar-xs  avatar-image">
-                    <span class="badge-avatar badge-grey-avatar"></span>
-                    <p class="badge_description">offline</p>
-                </div>
+            <h4 class="m-auto mb-1 content-size">Disabled Buttons</h4>
+            <div class="container-flex-row mb-1">
+                <button class="primary-button-disabled button-main">Primary Button</button>
+                <button class="secondary-button-disabled button-main">Secondary Button</button>
             </div>
-        </section>           
-       
+            <h4 class="m-auto mb-1 content-size">Link Buttons</h4>
+            <div class="container-flex-row">
+                <a href="#" class="button-link button-main">Link</a>
+                <a href="#" class="secondary-link-button button-main">Link</a>
+            </div>
+            <h4 class="m-auto mb-1 content-size">Icon/ Float Buttons</h4>
+            <div class="container-flex-row">
+                <button><i class="fas fa-shopping-cart fa-m badge-element cursor-pointer"></i></button>
+                <button class="float-button"><i class="fas fa-plus-circle fa-2x"></i></button>
+            </div>
+        </section>
     </container>
 </body>
 </html>
