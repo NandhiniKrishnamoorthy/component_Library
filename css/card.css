@@ -1,0 +1,162 @@
+﻿.card_main {
+    cursor: pointer;
+    background-color: black;
+    color: var(--golden-color);
+    width: 300px;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin: 1rem 1rem 1rem 1rem;    
+}
+
+.main_img {
+    margin-top: 10%;
+    width: 80%;
+    height: 80%;    
+}
+
+.text1-on-card {    
+    display: none;
+}
+
+.card_main:hover {
+    background-color: var(--card-color);
+}
+
+.card_main:hover .text1-on-card,
+.card_03:hover .text1-on-card{    
+    display: block;
+    background-color: var(--golden-color);
+    color: black;
+    position: absolute;
+    left: 40%;
+    top: 45%;
+    padding: 7px 15px 7px 15px;
+}
+
+.card_02 {
+    background-color: black;
+    color: var(--golden-color);
+    width: 300px;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin: 1rem 1rem 1rem 1rem;
+}
+
+.card-overlay {
+    inset: 0;
+    color: white;
+    background-color: var(--overlay);
+    position: absolute;   
+    padding: 7px 15px 7px 15px;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25rem;
+}
+
+.card-price-discount{
+    text-decoration: line-through;
+    font-size: 0.75rem;
+    padding-left: 4px;
+}
+
+.card-deal{
+    margin-top: 1rem;
+    margin-bottom: 0;
+    border: lightgrey 1px solid;
+    color: lightgrey;
+    padding: 5px 5px 5px 5px;
+}
+
+.card_03 {
+    background-color: black;
+    width: 400px;
+    height: 230px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;    
+    position: relative;
+}
+
+.card_03:hover {
+    cursor: pointer;
+    background-color: var(--card-color);
+}
+
+.card-horizontal {
+    width: 45%;
+    height: 85%;
+    padding-left: 10%;
+    padding-top:5%;
+}
+
+.card-desc-horizontal {
+    color: var(--golden-color);
+    padding-left: 65%;
+    padding-top: 10%;
+    position: absolute;
+}
+
+.card_text_only{
+    width: 250px;
+    height: max-content;
+    background-color: black;
+    color: white;
+    margin: auto;
+    padding: 15px 15px 15px 15px;
+}
+
+.card-textonly-title{
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 5px 0px 10px 0px;
+}
+
+.card-textonly-desc {
+    padding: 5px 5px 5px 5px;
+    text-align: justify;
+    line-height: 1.30rem;
+}
+
+.card-textonly-button {
+    width: 100%;
+    margin: 25px 0px 0px 0px;
+    padding: 5px 0px 5px 0px;
+    background-color: var(--golden-color);
+    color:black;
+    cursor: pointer;
+}
+
+.card-textonly-button:hover {
+    background-color: #B09427;
+}
+
+.card-badge {
+    position: absolute;
+    background-color: var(--info-text);
+    color: white;
+    left: 2px;
+    top: 15px;
+    padding: 5px 10px 5px 10px;
+    font-weight: bold;
+}
+
+.card-dismiss {
+    position: absolute;
+    background-color: var(--fail-text);
+    color: white;
+    right: 0px;
+    top: 0px;
+    padding: 3px 6px 3px 6px;    
+    border-radius: 50%
+}
+
+.card-shadow {
+    box-shadow: lightgrey 0px 0px 5px 5px;
+}
