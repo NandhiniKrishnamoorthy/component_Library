@@ -8,6 +8,10 @@
 @import "./badge.css";
 @import "./button.css";
 @import "./card.css";
+@import "./input.css";
+@import "./images.css";
+@import "./navigation.css";
+
 
 .header {
     max-width: 60%;
@@ -27,4 +31,8 @@
 .cursor-pointer:hover {
     cursor: pointer;
     color: black;    
+}
+
+*, *::after, *::before {
+    box-sizing: border-box;        
 }
