@@ -1,0 +1,59 @@
+﻿.login-form {   
+    background-color: var(--lightgrey-color);
+    border: var(--black-color) 1px solid;
+    width: 20rem;
+    max-width: 100%;
+    padding: 2rem;
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;   
+    text-align: center;
+}
+
+.form-label {
+    font-weight: bold;
+    padding-top: 1rem;
+    line-height: 1.75rem;    
+}
+
+
+.user-input {
+    background-color: var(--white-color);
+    border: thin solid var(--grey-color);
+    border-radius: 0.5rem;
+    font-size: 0.75rem;
+    padding: 0.5rem;
+    width: 85%;
+    display: block;
+    margin-bottom: 2rem;    
+    margin:auto;
+}
+
+.password-input{
+    border: var(--fail-text) 1px solid;
+}
+.password-text {
+    color: var(--fail-text);
+}
+.form-textarea {
+    background-color: var(--white-color);
+    border: thin solid var(--grey-color);
+    border-radius: 0.5rem;
+    font-size: 0.75rem;
+    padding: 0.5rem;
+    width: 100%;
+    height: 5rem;
+    display: block;
+    margin-top: 1rem;
+}
+
+.password-area {
+    border: none;
+    max-width: 100%;
+}
+
+.password-icon {
+    color: var(--fail-text);
+    padding-left:0.5rem;
+}
