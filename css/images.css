@@ -1,15 +1,8 @@
 ﻿.round-image {
-    width: 12rem;
-    height: 12rem;
-    margin: auto;
     border-radius: 50%;
-    box-shadow: var(--image-shadow);    
-    object-fit: cover;
-    margin-right: 3rem;
-    margin-top:1rem;
 }
 
-.square-image {
+.image-base {
     width: 12rem;
     height: 12rem;
     margin: auto;
