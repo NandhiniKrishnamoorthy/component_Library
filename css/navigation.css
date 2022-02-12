@@ -1,0 +1,54 @@
+.nav-bar {
+    background-color: var(--black-color);
+    color: var(--white-color);
+    padding: 1rem;
+    margin:auto;
+    max-width: 100%;
+    height:auto;
+    margin-top:2rem;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;    
+}
+
+.image-logo{
+    width: 5rem;
+    height: 5rem;
+    object-fit: cover;
+}
+
+.item-search-area{
+    width: 35rem;
+    height: 3rem;
+    padding: 1rem;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.item-search-button {
+    width: 3rem;
+    height: 3rem;
+    padding: 0.5rem;
+}
+
+.brand_name {
+    color: var(--golden-color);
+    width: 3rem;
+    height:max-content;
+    font-size: 1.25rem;
+    margin-right:5rem;
+    padding:0;
+    display:flex;
+}
+
+.nav-cursor-pointer:hover{
+    cursor: pointer;
+}
+
+.primary-button {    
+    background-color: var(--black-color);
+    color: var(--white-color);
+    border: var(--white-color) 1px solid;
+}
