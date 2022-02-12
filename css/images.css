@@ -1,0 +1,31 @@
+﻿.round-image {
+    width: 12rem;
+    height: 12rem;
+    margin: auto;
+    border-radius: 50%;
+    box-shadow: var(--image-shadow);    
+    object-fit: cover;
+    margin-right: 3rem;
+    margin-top:1rem;
+}
+
+.square-image {
+    width: 12rem;
+    height: 12rem;
+    margin: auto;
+    box-shadow: var(--image-shadow);
+    object-fit: cover;
+    margin-left: 3rem;
+    margin-top: 1rem;
+}
+
+.img-container{
+    max-width: 500px;
+    height: 300px;
+    margin:auto;
+}
+
+.responsive-image {
+    width: 100%;
+    height: auto;
+}
