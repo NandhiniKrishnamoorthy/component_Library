@@ -282,15 +282,34 @@
         <section class="m-auto mt-1 px-0p5 py-1 container-wrapper">
             <h4 class="m-auto mb-1 content-size">Round Image</h4>
             <div class="container-flex-row">
-                <img src="images/round_image.jpg" class="round-image image-base" alt="round-image"/>
-                <img src="images/square_image.jpg" class="image-base" alt="square-image"/>
+                <img src="images/round_image.jpg" class="round-image image-base" alt="round-image" />
+                <img src="images/square_image.jpg" class="image-base" alt="square-image" />
             </div>
             <h4 class="m-auto mt-2 mb-1 content-size">Responsive Image</h4>
             <div class="container-flex-col img-container">
-                <img src="images/responsive_image.jpg" class="responsive-image" alt="responsive image"/>
+                <img src="images/responsive_image.jpg" class="responsive-image" alt="responsive image" />
             </div>
         </section>
-        
+
+        <!--------------Input-------------->
+        <h2 class="m-auto content-size mt-2">Input</h2>
+        <p class="m-auto mt-1 content-size text-xs">
+            Used to create interactive controls for web-based forms in order to accept data from the user
+        </p>
+
+        <form class="login-form">
+            <p class="text-xs py-1 text-semibold">Feedback</p>
+            <div>
+                <label for="email" class="form-label">Username</label>
+                <input placeholder="Email" type="email" class="user-input">
+                <label for="password" class="form-label">Password</label>
+                <input placeholder="password" type="password" class="user-input password-input" required>
+                <p class="password-text mt-0p5">please enter a valid password</p>
+                <textarea class="form-textarea" placeholder="enter your feedback"></textarea>
+            </div>
+            <button class="button-main primary-button mt-2">Submit</button>
+        </form>
+
     </container>
 </body>
 </html>
