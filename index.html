@@ -14,7 +14,35 @@
     <header class="header m-auto py-0p5 pl-2">
         <h2>Components</h2>
     </header>
-    <container>        
+    <container>
+        <!--------------Avatar-------------->
+        <h2 class="m-auto content-size mt-2">Avatar</h2>
+        <p class="m-auto mt-1 content-size text-xs">
+            Avatars are images that users can set as their profile picture.
+            They can be custom photos, uploaded by users, or generated as Identicons as a placeholder.
+        </p>
+        <section class="m-auto mt-2 px-0p5 py-1 container-wrapper">
+            <div class="container-flex-row">
+                <div class="px-1">
+                    <img src="images/avatar1.jpg" alt="avatar" class="avatar-xs  avatar-image">
+                </div>
+                <div class="px-1">
+                    <img src="images/avatar2.jpg" alt="avatar" class="avatar-s  avatar-image">
+                </div>
+                <div class="px-1">
+                    <img src="images/avatar3.jpg" alt="avatar" class="avatar-m avatar-image">
+                </div>
+                <div class="px-1">
+                    <img src="images/avatar4.jpeg" alt="avatar" class="avatar-l avatar-image">
+                </div>
+                <div class="px-1">
+                    <img src="images/avatar5.jpg" alt="avatar" class="avatar-xl avatar-image">
+                </div>
+                <div class="px-1">
+                    <img src="images/avatar6.jpg" alt="avatar" class="avatar-xxl avatar-image">
+                </div>
+            </div>
+        </section>
 
         <!--------------Alert-------------->
         <h2 class="m-auto content-size mt-2">Alert</h2>
@@ -38,6 +66,58 @@
                 <i class="mr-1 fas fa-exclamation-triangle"></i><strong>Info!</strong>This is a info Alert<i class="ml-auto cursor-pointer fas fa-times"></i>
             </div>
         </section>
+
+
+        <!--------------Badges-------------->
+        <h2 class="m-auto content-size mt-2">Badge</h2>
+        <p class="m-auto mt-1 content-size text-xs">
+            Badges are used to display the notification count and status to the user
+        </p>
+        <section class="m-auto mt-1 px-0p5 py-1 container-wrapper">
+            <h3 class="m-auto mb-2 content-size">Badge on icons</h3>
+            <div class="container-flex-row">
+                <div class="px-1p5 badge-element">
+                    <i class="fas fa-bell fa-2x" aria-hidden="true"></i>
+                    <span class="badge-icon">4</span>
+                </div>
+                <div class="px-1p5 badge-element">
+                    <i class="fa-solid fa fa-envelope fa-2x"></i>
+                    <span class="badge-icon badge-red">99+</span>
+                </div>
+                <div class="px-1p5 badge-element">
+                    <i class="fa-solid fa fa-comment fa-2x"></i>
+                    <span class="badge-icon badge-green">5</span>
+                </div>
+                <div class="px-1p5 badge-element">
+                    <i class="fas fa-shopping-cart fa-2x"></i>
+                    <span class="badge-icon badge-yellow">7</span>
+                </div>
+            </div>
+            <h3 class="m-auto my-2 content-size">Badge on avatar</h3>
+            <div class="container-flex-row">
+                <div class="px-1p5  badge-element">
+                    <img src="images/avatar1.jpg" alt="avatar" class="avatar-xs  avatar-image">
+                    <span class="badge-avatar badge-green-avatar"></span>
+                    <p class="badge_description">Available</p>
+                </div>
+                <div class="px-1p5 badge-element">
+                    <img src="images/avatar2.jpg" alt="avatar" class="avatar-xs  avatar-image">
+                    <span class="badge-avatar badge-red-avatar"></span>
+                    <p class="badge_description">Do Not Disturb</p>
+                </div>
+                <div class="px-1p5 badge-element">
+                    <img src="images/avatar3.jpg" alt="avatar" class="avatar-xs  avatar-image">
+                    <span class="badge-avatar badge-yellow-avatar"></span>
+                    <p class="badge_description">Away</p>
+                </div>
+                <div class="px-1p5 badge-element">
+                    <img src="images/avatar4.jpeg" alt="avatar" class="avatar-xs  avatar-image">
+                    <span class="badge-avatar badge-grey-avatar"></span>
+                    <p class="badge_description">offline</p>
+                </div>
+            </div>
+        </section>
+
 
         <!--------------Buttons-------------->
         <h2 class="m-auto content-size mt-2">Buttons</h2>
@@ -66,6 +146,137 @@
                 <button class="float-button"><i class="fas fa-plus-circle fa-2x"></i></button>
             </div>
         </section>
+
+        <!--------------Cards-------------->
+        <h2 class="m-auto content-size mt-2">Cards</h2>
+        <p class="m-auto mt-1 content-size text-xs">
+            A card is a flexible and extensible content container.
+            It includes options for headers and footers, a wide variety of content, contextual background colors, and powerful display options
+        </p>
+        <section class="m-auto mt-1 px-0p5 py-1 container-wrapper">
+            <h4 class="m-auto mb-1 content-size">Cards with text overlay</h4>
+            <div class="container-flex-row">
+                <div class="card_main">
+                    <img class="main_img" src="images/card3.jpg" />
+                    <div class="pt-2">
+                        Lakshmi Choker
+                    </div>
+                    <div class="py-1">
+                        Rs. 1800
+                    </div>
+                    <div class="text1-on-card">VIEW</div>
+                </div>
+                <div class="card_02 ml-2">
+                    <div class="card-overlay">Out of Stock</div>
+                    <img class="main_img" src="images/card1.jpg" />
+                    <div class="pt-2">
+                        Lakshmi Haram
+                    </div>
+                    <div class="py-1">
+                        Rs. 2000
+                    </div>
+                </div>
+            </div>
+
+            <h4 class="m-auto my-1 content-size">Vertical Cards</h4>
+            <div class="container-flex-row">
+                <div class="card_main">
+                    <img class="main_img" src="images/card1.jpg" />
+                    <div class="pt-2">
+                        Lakshmi Haram
+                    </div>
+                    <div class="card-deal">Deal of the day</div>
+                    <div class="py-1">
+                        Rs. 2000 <span class="card-price-discount">2500</span>
+                    </div>
+                    <div class="text1-on-card">VIEW</div>
+                </div>
+                <div class="card_main">
+                    <img class="main_img" src="images/card2.jpg" />
+                    <div class="pt-2">
+                        Antique Choker
+                    </div>
+                    <div class="py-1">
+                        Rs. 2200
+                    </div>
+                    <div class="text1-on-card">VIEW</div>
+                </div>
+            </div>
+
+            <h4 class="m-auto my-1 content-size">Horizontal Cards</h4>
+            <div class="container-flex-row">
+                <div class="card_03">
+                    <img class="card-horizontal" src="images/card2.jpg" />
+                    <div class="text1-on-card">VIEW</div>
+                    <div class="container-flex-col card-desc-horizontal">
+                        <div class="pt-2">
+                            Antique Choker
+                        </div>
+                        <div class="card-deal">Deal of the day</div>
+                        <div class="py-1">
+                            Rs. 2200<span class="card-price-discount">2500</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h4 class="m-auto my-1 content-size">Text Only Cards</h4>
+            <div class="container-flex-row">
+                <div class="card_text_only">
+                    <div class="card-textonly-title">SONA Fancy</div>
+                    <div class="card-textonly-desc">
+                        Our page is recognized for the exceptional jewelry collections presented in an organized layout.
+                        We ensure to present our customers with first-rate jewelry
+                    </div>
+                    <button class="card-textonly-button">About Us</button>
+                </div>
+            </div>
+
+            <h4 class="m-auto my-1 content-size">Badge on Cards</h4>
+            <div class="container-flex-row">
+                <div class="card_main">
+                    <span class="card-badge">New</span>
+                    <img class="main_img" src="images/card2.jpg" />
+                    <div class="pt-2">
+                        Antique Choker
+                    </div>
+                    <div class="py-1">
+                        Rs. 2200
+                    </div>
+                    <div class="text1-on-card">VIEW</div>
+                </div>
+            </div>
+
+            <h4 class="m-auto my-1 content-size">Dismiss on Cards</h4>
+            <div class="container-flex-row">
+                <div class="card_main">
+                    <span class="card-dismiss"><i class="ml-auto cursor-pointer fas fa-times"></i></span>
+                    <img class="main_img" src="images/card2.jpg" />
+                    <div class="pt-2">
+                        Antique Choker
+                    </div>
+                    <div class="py-1">
+                        Rs. 2200
+                    </div>
+                    <div class="text1-on-card">VIEW</div>
+                </div>
+            </div>
+
+            <h4 class="m-auto my-1 content-size">Cards with shadow</h4>
+            <div class="container-flex-row">
+                <div class="card_main card-shadow">
+                    <img class="main_img" src="images/card1.jpg" />
+                    <div class="pt-2">
+                        Lakshmi Haram
+                    </div>
+                    <div class="card-deal">Deal of the day</div>
+                    <div class="py-1">
+                        Rs. 2000 <span class="card-price-discount">2500</span>
+                    </div>
+                    <div class="text1-on-card">VIEW</div>
+                </div>
+            </div>
+        </section>
+
     </container>
 </body>
 </html>
