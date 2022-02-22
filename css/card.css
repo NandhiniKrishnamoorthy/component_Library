@@ -1,6 +1,6 @@
 ﻿.card_main {
     cursor: pointer;
-    background-color: black;
+    background-color: var(--black-color);
     color: var(--golden-color);
     width: 300px;
     height: max-content;
@@ -8,7 +8,7 @@
     flex-direction: column;
     align-items: center;
     position: relative;
-    margin: 1rem 1rem 1rem 1rem;    
+    margin: 1rem;    
 }
 
 .main_img {
@@ -29,15 +29,15 @@
 .card_03:hover .text1-on-card{    
     display: block;
     background-color: var(--golden-color);
-    color: black;
+    color: var(--black-color);
     position: absolute;
     left: 40%;
     top: 45%;
-    padding: 7px 15px 7px 15px;
+    padding: 7px 15px;
 }
 
 .card_02 {
-    background-color: black;
+    background-color: var(--black-color);
     color: var(--golden-color);
     width: 300px;
     height: max-content;
@@ -45,15 +45,15 @@
     flex-direction: column;
     align-items: center;
     position: relative;
-    margin: 1rem 1rem 1rem 1rem;
+    margin: 1rem;
 }
 
 .card-overlay {
     inset: 0;
-    color: white;
+    color: var(--white-color);
     background-color: var(--overlay);
     position: absolute;   
-    padding: 7px 15px 7px 15px;  
+    padding: 7px 15px;  
     display: flex;
     align-items: center;
     justify-content: center;
@@ -69,13 +69,13 @@
 .card-deal{
     margin-top: 1rem;
     margin-bottom: 0;
-    border: lightgrey 1px solid;
-    color: lightgrey;
-    padding: 5px 5px 5px 5px;
+    border: var(--lightgrey-color) 1px solid;
+    color: var(--lightgrey-color);
+    padding: 5px;
 }
 
 .card_03 {
-    background-color: black;
+    background-color: var(--black-color);
     width: 400px;
     height: 230px;
     margin: auto;
@@ -106,10 +106,10 @@
 .card_text_only{
     width: 250px;
     height: max-content;
-    background-color: black;
-    color: white;
+    background-color: var(--black-color);
+    color: var(--white-color);
     margin: auto;
-    padding: 15px 15px 15px 15px;
+    padding: 15px;
 }
 
 .card-textonly-title{
@@ -119,7 +119,7 @@
 }
 
 .card-textonly-desc {
-    padding: 5px 5px 5px 5px;
+    padding: 5px;
     text-align: justify;
     line-height: 1.30rem;
 }
@@ -127,9 +127,9 @@
 .card-textonly-button {
     width: 100%;
     margin: 25px 0px 0px 0px;
-    padding: 5px 0px 5px 0px;
+    padding: 5px 0px;
     background-color: var(--golden-color);
-    color:black;
+    color:var(--black-color);
     cursor: pointer;
 }
 
@@ -140,23 +140,23 @@
 .card-badge {
     position: absolute;
     background-color: var(--info-text);
-    color: white;
+    color: var(--white-color);
     left: 2px;
     top: 15px;
-    padding: 5px 10px 5px 10px;
+    padding: 5px 10px;
     font-weight: bold;
 }
 
 .card-dismiss {
     position: absolute;
     background-color: var(--fail-text);
-    color: white;
+    color: var(--white-color);
     right: 0px;
     top: 0px;
-    padding: 3px 6px 3px 6px;    
+    padding: 3px 6px;    
     border-radius: 50%
 }
 
 .card-shadow {
-    box-shadow: lightgrey 0px 0px 5px 5px;
+    box-shadow: var(--lightgrey-color) 0px 0px 5px 5px;
 }

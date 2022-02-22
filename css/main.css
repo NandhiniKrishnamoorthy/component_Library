@@ -15,7 +15,7 @@
 
 
 .header {
-    max-width: 60%;
+    max-width: 100%;
     background-color: var(--primary_color);
     box-shadow: var(--box-shadow);
 }
@@ -31,7 +31,7 @@
 
 .cursor-pointer:hover {
     cursor: pointer;
-    color: black;    
+    color: var(--black-color);   
 }
 
 *, *::after, *::before {

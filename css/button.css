@@ -1,5 +1,5 @@
 ﻿.button-main{
-    padding: 5px 10px 5px 10px;
+    padding: 5px 10px;
     border-radius: 10px;    
     margin-left: 1rem;
     margin-right: 1rem;
@@ -9,7 +9,7 @@
 
 .primary-button {
     background-color: var(--primary-button-color);
-    color: white;
+    color: var(--white-color);
 }
 
 .secondary-button {
@@ -17,14 +17,14 @@
 }
 
     .secondary-button:hover {
-        background-color: #5200cc;
-        color: white;
+        background-color: var(--primary-button-hover);
+        color: var(--white-color);
         cursor: pointer;
     }
 
 .primary-button:hover {
-    background-color: #5200cc;
-    color: white;
+    background-color: var(--primary-button-hover);
+    color: var(--white-color);
     cursor: pointer;
 }
 
@@ -32,50 +32,50 @@
     text-decoration: underline;
     font-size: 1.25rem;
     text-underline-position: under;
-    color: #5200cc;
+    color: var(--primary-button-hover);
     cursor: pointer;
 }
 
     .button-link:hover {
         cursor: pointer;
-        color: #26004d;
+        color: var(--button-link-hover);
     }
 
 .float-button{
     margin-left: 1rem;
-    background-color: white;
-    color: blue;
+    background-color: var(--white-color);
+    color: var(--info-text);
     border-radius: 50%;  
     border:none;
-    padding: 0px 0px 0px 0px;
+    padding: 0px;
 }
 
     .float-button:hover {
         cursor: pointer;
-        box-shadow: grey 0px 0px 2px 2px;
+        box-shadow: var(--box-shadow);
     }
 
 .primary-button-disabled {
     background-color: var(--primary-button-disabled);
     border: none;
     font-weight: normal;
-    color: white;
+    color: var(--white-color);
 }
 
 .secondary-button-disabled {
     background-color: var(--secondary-button-disabled);
     border: none;
     font-weight: normal;
-    color: white;
+    color: var(--white-color);
 }
 
 .secondary-link-button {
     font-size: 1rem;
-    border: 1px solid black;
-    box-shadow: grey 0px 0px 2px 2px;
+    border: 1px solid var(--black-color);
+    box-shadow: var(--box-shadow);
     text-underline-position: under;
 }
 
 .secondary-link-button:hover{
-    background-color: lightgrey;
+    background-color: var(--lightgrey-color);
 }

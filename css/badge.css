@@ -1,6 +1,5 @@
 ﻿.badge-element{
-    position: relative;
-    
+    position: relative;   
 }
 
 .badge-icon {    
@@ -21,24 +20,24 @@
 }
 
 .badge-red{
-    background-color: red;
+    background-color: var(--fail-text);
 }
 
 .badge-green {
-    background-color: #3DC94F;
+    background-color: var(--lightgreen-color);
 }
 
 .badge-green-avatar {
-    background-color: #3DC94F;
+    background-color: var(--lightgreen-color);
 }
 .badge-red-avatar{
-    background-color: red;
+    background-color: var(--fail-text);
 }
 .badge-yellow-avatar {
-    background-color: yellow;
+    background-color: var(--yellow-color);
 }
 .badge-grey-avatar {
-    background-color: grey;
+    background-color: var(--grey-color);
 }
 .badge_description {
     display: none;
@@ -49,8 +48,8 @@
 .badge-yellow-avatar:hover + .badge_description,
 .badge-grey-avatar:hover + .badge_description {
     display: block;
-    background-color: black;
-    color: white;
+    background-color: var(--black-color);
+    color: var(--white-color);
     position: absolute;
     left: 72%;
     top: 50%;
@@ -59,13 +58,13 @@
 
 
 .badge-yellow {
-    background-color: #DD9D14;
+    background-color: var(--yellow-color);
 }
 
 .badge-avatar {
     border-radius: 50%;
     display: inline-block;
-    padding: 0.35em 0.35em;
+    padding: 0.35em;
     position: absolute;
     transform: translate(-50%, -50%);
     width: 0.5px;
