@@ -1,7 +1,7 @@
 ﻿:root {
     --primary_color: rgb(240, 255, 240);
     --border-color: indigo;
-    --box-shadow: rgb(218, 225, 224) 0px 0px 3px 3px;
+    --box-shadow: rgb(218, 225, 224) 0px 0px 2px 2px;
     --avatar-color: darkolivegreen;
     --image-shadow: 0px 0px 4px 4px rgba(200, 200, 200);
     --success-alert: #c1f0c1;
@@ -15,6 +15,7 @@
     --white-color: #fff;
     --primary-button-color: #794AD6;
     --primary-button-disabled: #B59CE8;
+    --primary-button-hover: #5200cc;
     --secondary-button-disabled: #C8C5CF;
     --golden-color: #EECB59;
     --card-color: #2D260B;
@@ -23,4 +24,6 @@
     --lightgrey-color: #F1EDE1;
     --black-color: #000000;
     --yellow-color: #fcba03;
+    --lightgreen-color:#51D01D;
+    --button-link-hover: #26004d;
 }

@@ -73,9 +73,10 @@
 
 .badge-element{
     position: relative;   
-    border: var(--white-color) 1px solid;
+    border: var(--black-color) 1px solid;
     border-radius: 20%; 
     padding: 0.5rem;
+    margin:0rem 1rem;
 }
 
 .badge-red{

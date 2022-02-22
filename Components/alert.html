@@ -1,78 +1,85 @@
 <!DOCTYPE html>
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />   
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
-    <title>Style-10</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <title>Style-10-alert</title>
 
     <!-- custom stylesheet -->
     <link rel="stylesheet" href="../css/main.css" />
 </head>
+
 <body>
-    <header class="header m-auto py-0p5 pl-2">
-        <div class="container-flex-row flex-sb">
-            <a href="../index.html"><h2>Style-10</h2></a>
-            <div class="container-flex-row mr-3">
-                <a href="../get_started/getStart.html" class="text-bold text-xs">Get Started</a> 
-                <a href="../Components/alert.html" class="text-bold text-xs ml-2">Docs</a>
-                <a href="https://github.com/NandhiniKrishnamoorthy/component_Library" target="_blank" class="text-s ml-2"><i class="fa-brands fa-github"></i></a>
+    <div>
+        <header class="header m-auto py-0p5 pl-2 position_fixed">
+            <div class="container-flex-row flex-sb">
+                <a href="../index.html">
+                    <h2>Style-10</h2>
+                </a>
+                <div class="container-flex-row mr-3">
+                    <a href="../get_started/getStart.html" class="text-bold text-xs">Get Started</a>
+                    <a href="../Components/alert.html" class="text-bold text-xs ml-2">Docs</a>
+                    <a href="https://github.com/NandhiniKrishnamoorthy/component_Library" target="_blank"
+                        class="text-s ml-2"><i class="fa-brands fa-github"></i></a>
+                </div>
             </div>
-        </div>
-    </header>
-    <aside class="sidebar">
-        <a href="../Components/alert.html" class="sidebar_component">Alert</a>
-        <a href="../Components/avatar.html" class="sidebar_component">Avatar</a>
-        <a href="../Components/badge.html" class="sidebar_component">Badge</a>
-        <a href="../Components/button.html" class="sidebar_component">Button</a>
-        <a href="../Components/card.html" class="sidebar_component">Card</a>
-        <a href="../Components/image.html" class="sidebar_component">Image</a>
-        <a href="../Components/input.html" class="sidebar_component">Input</a>
-        <a href="../Components/navigation.html" class="sidebar_component">Navigation</a>
-        <a href="../Components/ratings.html" class="sidebar_component">Ratings</a>
-        <a href="../Components/text_utilities.html" class="sidebar_component">Text_Utilities</a>
-    </aside>
-    <container>
-        
-        <h2 class="m-auto content-size mt-2">Alert</h2>
-        <p class="m-auto mt-1 content-size text-xs">
-            Alert messages can be used to notify the user about something special: <i>danger, success, information or warning.</i>
-        </p>
-        <section class="m-auto mt-2 px-0p5 py-1 container-wrapper container-flex-col">
-            <div class="px-1 py-1 alert-success container-flex-row">
-                <i class="mr-1 fas fa-check-circle"></i>
-                <strong>Success!</strong>This is a success Alert
-                <i class="ml-auto cursor-pointer fas fa-times"></i>
-            </div>
+        </header>
+        <aside class="sidebar">
+            <a href="../Components/alert.html" class="sidebar_component">Alert</a>
+            <a href="../Components/avatar.html" class="sidebar_component">Avatar</a>
+            <a href="../Components/badge.html" class="sidebar_component">Badge</a>
+            <a href="../Components/button.html" class="sidebar_component">Button</a>
+            <a href="../Components/card.html" class="sidebar_component">Card</a>
+            <a href="../Components/image.html" class="sidebar_component">Image</a>
+            <a href="../Components/input.html" class="sidebar_component">Input</a>
+            <a href="../Components/navigation.html" class="sidebar_component">Navigation</a>
+            <a href="../Components/ratings.html" class="sidebar_component">Ratings</a>
+            <a href="../Components/text_utilities.html" class="sidebar_component">Text_Utilities</a>
+        </aside>
+        <section class="container">
+            <h2 class="m-auto content-size mt-2">Alert</h2>
+            <p class="m-auto mt-1 content-size text-xs">
+                Alert messages can be used to notify the user about something special: <i>danger, success, information
+                    or warning.</i>
+            </p>
+            <section class="m-auto mt-2 px-0p5 py-1 container-wrapper container-flex-col">
+                <div class="px-1 py-1 alert-success container-flex-row">
+                    <i class="mr-1 fas fa-check-circle"></i>
+                    <strong>Success!</strong>This is a success Alert
+                    <i class="ml-auto cursor-pointer fas fa-times"></i>
+                </div>
 
-            <div class="px-1 py-1 mt-1 alert-fail container-flex-row">
-                <i class="mr-1 fas fa-times-circle"></i>
-                <strong>Fail!</strong>This is a fail Alert
-                <i class="ml-auto cursor-pointer fas fa-times"></i>
-            </div>
+                <div class="px-1 py-1 mt-1 alert-fail container-flex-row">
+                    <i class="mr-1 fas fa-times-circle"></i>
+                    <strong>Fail!</strong>This is a fail Alert
+                    <i class="ml-auto cursor-pointer fas fa-times"></i>
+                </div>
 
-            <div class="px-1 py-1 mt-1 alert-warning container-flex-row">
-                <i class="mr-1 fas fa-exclamation-triangle"></i>
-                <strong>Warning!</strong>This is a warning Alert
-                <i class="ml-auto cursor-pointer fas fa-times"></i>
-            </div>
+                <div class="px-1 py-1 mt-1 alert-warning container-flex-row">
+                    <i class="mr-1 fas fa-exclamation-triangle"></i>
+                    <strong>Warning!</strong>This is a warning Alert
+                    <i class="ml-auto cursor-pointer fas fa-times"></i>
+                </div>
 
-            <div class="px-1 py-1 mt-1 alert-info container-flex-row">
-                <i class="mr-1 fas fa-exclamation-triangle"></i>
-                <strong>Info!</strong>This is a info Alert
-                <i class="ml-auto cursor-pointer fas fa-times"></i>
+                <div class="px-1 py-1 mt-1 alert-info container-flex-row">
+                    <i class="mr-1 fas fa-exclamation-triangle"></i>
+                    <strong>Info!</strong>This is a info Alert
+                    <i class="ml-auto cursor-pointer fas fa-times"></i>
+                </div>
+            </section>
+
+            <div class="docs text-center mt-2 container-flex-row">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%2817%2C22%2C25%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=13px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%253Cdiv%2520class%253D%2522px-1%2520py-1%2520alert-success%2520container-flex-row%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522mr-1%2520fas%2520fa-check-circle%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cstrong%253ESuccess%21%253C%252Fstrong%253EThis%2520is%2520a%2520success%2520Alert%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522ml-auto%2520cursor-pointer%2520fas%2520fa-times%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522px-1%2520py-1%2520mt-1%2520alert-fail%2520container-flex-row%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522mr-1%2520fas%2520fa-times-circle%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cstrong%253EFail%21%253C%252Fstrong%253EThis%2520is%2520a%2520fail%2520Alert%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522ml-auto%2520cursor-pointer%2520fas%2520fa-times%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522px-1%2520py-1%2520mt-1%2520alert-warning%2520container-flex-row%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522mr-1%2520fas%2520fa-exclamation-triangle%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cstrong%253EWarning%21%253C%252Fstrong%253EThis%2520is%2520a%2520warning%2520Alert%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522ml-auto%2520cursor-pointer%2520fas%2520fa-times%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522px-1%2520py-1%2520mt-1%2520alert-info%2520container-flex-row%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522mr-1%2520fas%2520fa-exclamation-triangle%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cstrong%253EInfo%21%253C%252Fstrong%253EThis%2520is%2520a%2520info%2520Alert%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522ml-auto%2520cursor-pointer%2520fas%2520fa-times%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E"
+                    style="width: 680px; height: 626px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
             </div>
         </section>
-
-        <div class="docs text-center mt-2 container-flex-row">
-            <iframe
-                src="https://carbon.now.sh/embed?bg=rgba%2817%2C22%2C25%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=13px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%253Cdiv%2520class%253D%2522px-1%2520py-1%2520alert-success%2520container-flex-row%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522mr-1%2520fas%2520fa-check-circle%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cstrong%253ESuccess%21%253C%252Fstrong%253EThis%2520is%2520a%2520success%2520Alert%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522ml-auto%2520cursor-pointer%2520fas%2520fa-times%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522px-1%2520py-1%2520mt-1%2520alert-fail%2520container-flex-row%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522mr-1%2520fas%2520fa-times-circle%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cstrong%253EFail%21%253C%252Fstrong%253EThis%2520is%2520a%2520fail%2520Alert%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522ml-auto%2520cursor-pointer%2520fas%2520fa-times%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522px-1%2520py-1%2520mt-1%2520alert-warning%2520container-flex-row%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522mr-1%2520fas%2520fa-exclamation-triangle%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cstrong%253EWarning%21%253C%252Fstrong%253EThis%2520is%2520a%2520warning%2520Alert%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522ml-auto%2520cursor-pointer%2520fas%2520fa-times%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522px-1%2520py-1%2520mt-1%2520alert-info%2520container-flex-row%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522mr-1%2520fas%2520fa-exclamation-triangle%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cstrong%253EInfo%21%253C%252Fstrong%253EThis%2520is%2520a%2520info%2520Alert%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522ml-auto%2520cursor-pointer%2520fas%2520fa-times%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E"
-                style="width: 680px; height: 626px; border:0; transform: scale(1); overflow:hidden;"
-                sandbox="allow-scripts allow-same-origin">
-            </iframe>
-        </div>
-    </container>
+    </div>
 </body>

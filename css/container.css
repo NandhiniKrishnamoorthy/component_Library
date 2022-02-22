@@ -1,6 +1,5 @@
 ﻿.container-wrapper {
-    max-width: 60%;
-    /*border: var(--border-color) 1px solid;*/
+    max-width: 60%;    
     box-shadow: var(--box-shadow);
 }
 
@@ -8,8 +7,7 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
-    /*flex-direction: row;     */
+    justify-content: center;    
 }
 
 .container-flex-col {
@@ -32,17 +30,17 @@ a{
     display: flex;
     flex-direction: column;
     position:fixed;
-    height: 100%;
-    /* width:max-content; */
-    background-color:var(--lightgrey-color);
-    margin: 1rem 2rem;    
+    height: 100%;    
+    background-color:var(--lightgrey-color);    
+    top:4rem;
+    margin: 4rem 0rem;    
     padding: 1rem 2rem;
 }
 
 .sidebar_component{
     font-size: 1.5rem;
     font-weight:bold;
-    margin: 0.5rem 0.5rem;    
+    margin: 0.5rem;    
 }
 
 .button_main{
@@ -50,10 +48,25 @@ a{
     color:var(--white-color);
     border:none;
     outline: none;
-    padding:1rem 1rem;
+    padding:1rem;
     margin: 2rem;
     box-shadow: rgb(218, 225, 224) 0px 0px 3px 3px;
     font-size: 1.5rem;
     border-radius: 1rem;
     cursor: pointer;
+}
+
+.position_fixed{
+    top:0;
+    position: fixed;
+    width:100%;
+    z-index: 100;
+}
+
+.container{
+    position: absolute;
+    top:15%;
+    left:20%;
+    width:80%;
+    align-items: center;
 }
