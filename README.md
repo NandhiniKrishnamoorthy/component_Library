@@ -23,4 +23,6 @@ A CSS component library used to build your projects
 
 Preview: 
 
-![Style-10](https://user-images.githubusercontent.com/71312105/155129264-3ebb185f-b475-4d88-b7a0-aa728cf48916.gif)
+
+https://user-images.githubusercontent.com/71312105/155131599-4b610af3-40f8-4130-9b4b-9807d3808e74.mp4
+
