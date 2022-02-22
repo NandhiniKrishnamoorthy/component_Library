@@ -23,6 +23,5 @@ A CSS component library used to build your projects
 
 Preview: 
 
-
 https://user-images.githubusercontent.com/71312105/155131599-4b610af3-40f8-4130-9b4b-9807d3808e74.mp4
 
