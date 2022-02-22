@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />    
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+    <title>Style-10</title>
+
+    <!-- custom stylesheet -->
+    <link rel="stylesheet" href="../css/main.css" />
+</head>
+<body>
+    <header class="header m-auto py-0p5 pl-2">
+        <div class="container-flex-row flex-sb">
+            <a href="../index.html"><h2>Style-10</h2></a>
+            <div class="container-flex-row mr-3">
+                <a href="../get_started/getStart.html" class="text-bold text-xs">Get Started</a> 
+                <a href="../Components/alert.html" class="text-bold text-xs ml-2">Docs</a>
+                <a href="https://github.com/NandhiniKrishnamoorthy/component_Library" target="_blank" class="text-s ml-2"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </header>
+    <aside class="sidebar">
+        <a href="../Components/alert.html" class="sidebar_component">Alert</a>
+        <a href="../Components/avatar.html" class="sidebar_component">Avatar</a>
+        <a href="../Components/badge.html" class="sidebar_component">Badge</a>
+        <a href="../Components/button.html" class="sidebar_component">Button</a>
+        <a href="../Components/card.html" class="sidebar_component">Card</a>
+        <a href="../Components/image.html" class="sidebar_component">Image</a>
+        <a href="../Components/input.html" class="sidebar_component">Input</a>
+        <a href="../Components/navigation.html" class="sidebar_component">Navigation</a>
+        <a href="../Components/ratings.html" class="sidebar_component">Ratings</a>
+        <a href="../Components/text_utilities.html" class="sidebar_component">Text_Utilities</a>
+    </aside>
+    <container>        
+        <h2 class="m-auto content-size mt-2">Input</h2>
+        <p class="m-auto mt-1 content-size text-xs">
+            Used to create interactive controls for web-based forms in order to accept data from the user
+        </p>
+
+        <form class="login-form">
+            <p class="text-xs py-1 text-semibold">Feedback</p>
+            <div>
+                <label for="email" class="form-label">Username</label>
+                <input placeholder="Email" type="email" class="user-input">
+                <label for="password" class="form-label">Password</label>
+                <input placeholder="password" type="password" class="user-input password-input" required>
+                <p class="password-text mt-0p5">please enter a valid password</p>
+                <textarea class="form-textarea" placeholder="enter your feedback"></textarea>
+            </div>
+            <button class="button-main primary-button mt-2">Submit</button>
+        </form>
+
+        <div class="docs text-center mt-2 container-flex-row">
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%2817%2C22%2C25%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=13px&lh=133%25&si=false&es=2x&wm=false&code=%2509%2509%253Cform%2520class%253D%2522login-form%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522text-xs%2520py-1%2520text-semibold%2522%253EFeedback%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522email%2522%2520class%253D%2522form-label%2522%253EUsername%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520placeholder%253D%2522Email%2522%2520type%253D%2522email%2522%2520class%253D%2522user-input%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522password%2522%2520class%253D%2522form-label%2522%253EPassword%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520placeholder%253D%2522password%2522%2520type%253D%2522password%2522%2520class%253D%2522user-input%2520%2509%2509%2509%2509%2509%2509password-input%2522%2520required%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522password-text%2520mt-0p5%2522%253Eplease%2520enter%2520a%2520valid%2520password%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ctextarea%2520class%253D%2522form-textarea%2522%2520placeholder%253D%2522enter%2520your%2520feedback%2522%253E%2509%2509%2509%2509%2509%253C%252Ftextarea%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button-main%2520primary-button%2520mt-2%2522%253ESubmit%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fform%253E"
+                style="width: 680px; height: 316px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+        </div>
+    </container>
+</body>
